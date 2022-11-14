@@ -1,0 +1,11 @@
+﻿  PK3_Lab_2.cpp
+C:\Users\SuperStudent.PL\Desktop\PK3_Lab_2\PK3_Lab_2.cpp(27,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\algorithm(3869,17): error C2064: funkcja przyjmująca 2 argumentów nie jest wynikiem przetworzenia termu
+C:\Users\SuperStudent.PL\Desktop\PK3_Lab_2\PK3_Lab_2.cpp(68): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „_FwdIt std::unique<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(_FwdIt,_FwdIt,_Pr)” funkcji szablon
+          with
+          [
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+              _Ty=int,
+              _Pr=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\algorithm(3871,26): error C2064: funkcja przyjmująca 2 argumentów nie jest wynikiem przetworzenia termu
