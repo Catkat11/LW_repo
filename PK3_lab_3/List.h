@@ -160,6 +160,7 @@ namespace lw {
 		void push_back(T value) {
 			Node<T>* newNode = new Node<T>;
 			newNode->data = value;
+			newNode->ptr_next = 0;
 			if (ptr_begin == 0) {
 				ptr_begin = newNode;
 			}
@@ -169,7 +170,6 @@ namespace lw {
 					temp = temp->ptr_next;
 				}
 				temp->ptr_next = newNode;
-				newNode->ptr_next = 0;
 			}
 		}
 		void toString() {

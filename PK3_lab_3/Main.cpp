@@ -4,7 +4,6 @@
 #define wypisz std::cout << std::endl;
 
 int main() {
-	std::cout << "kompilacja powidla sie :D" << std::endl;
 
 
 	lw::Lista<double> lista(4, [](const size_t i) {return 1.0 + i; });
@@ -25,6 +24,4 @@ int main() {
 	lista.insert(lista.end(), 16.6);
 	for (const auto& el : lista) std::cout << el << std::endl;
 
-
-	std::cout << "koniec";
 }
