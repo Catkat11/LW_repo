@@ -1,0 +1,38 @@
+﻿  PK_3_Lab_4.cpp
+C:\Users\wojcz\source\repos\PK_3_Lab_4\PK_3_Lab_4\PK_3_Lab_4.cpp(21,46): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\wojcz\source\repos\PK_3_Lab_4\PK_3_Lab_4\PK_3_Lab_4.cpp(28,8): warning C4834: odrzucanie zwracanej wartości funkcji z atrybutem „nodiscard”
+C:\Users\wojcz\source\repos\PK_3_Lab_4\PK_3_Lab_4\PK_3_Lab_4.cpp(34,45): warning C4267: "argument": konwersja z "size_t" do "const int", możliwa utrata danych
+C:\Users\wojcz\source\repos\PK_3_Lab_4\PK_3_Lab_4\PK_3_Lab_4.cpp(50,8): warning C4834: odrzucanie zwracanej wartości funkcji z atrybutem „nodiscard”
+C:\Users\wojcz\source\repos\PK_3_Lab_4\PK_3_Lab_4\PK_3_Lab_4.cpp(57,45): warning C4267: "argument": konwersja z "size_t" do "const int", możliwa utrata danych
+C:\Users\wojcz\source\repos\PK_3_Lab_4\PK_3_Lab_4\PK_3_Lab_4.cpp(72,9): warning C4834: odrzucanie zwracanej wartości funkcji z atrybutem „nodiscard”
+C:\Users\wojcz\source\repos\PK_3_Lab_4\PK_3_Lab_4\PK_3_Lab_4.cpp(79,46): warning C4267: "argument": konwersja z "size_t" do "const int", możliwa utrata danych
+C:\Users\wojcz\source\repos\PK_3_Lab_4\PK_3_Lab_4\PK_3_Lab_4.cpp(86,56): warning C4267: "argument": konwersja z "size_t" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\wojcz\source\repos\PK_3_Lab_4\PK_3_Lab_4\PK_3_Lab_4.cpp(111,44): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\wojcz\source\repos\PK_3_Lab_4\PK_3_Lab_4\PK_3_Lab_4.cpp(125,45): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\utility(172,48): warning C4267: "inicjowanie": konwersja z "size_t" do "_Ty1", możliwa utrata danych
+          with
+          [
+              _Ty1=int
+          ]
+C:\Users\wojcz\source\repos\PK_3_Lab_4\PK_3_Lab_4\PK_3_Lab_4.cpp(42,69): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::pair<int,int>::pair<size_t&,size_t&,0>(_Other1,_Other2) noexcept” funkcji szablon
+          with
+          [
+              _Other1=size_t &,
+              _Other2=size_t &
+          ]
+C:\Users\wojcz\source\repos\PK_3_Lab_4\PK_3_Lab_4\PK_3_Lab_4.cpp(42,44): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::pair<int,int>::pair<size_t&,size_t&,0>(_Other1,_Other2) noexcept” funkcji szablon
+          with
+          [
+              _Other1=size_t &,
+              _Other2=size_t &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\utility(172,48): warning C4267: "inicjowanie": konwersja z "size_t" do "_Ty2", możliwa utrata danych
+          with
+          [
+              _Ty2=int
+          ]
+  PK_3_Lab_4.vcxproj -> C:\Users\wojcz\source\repos\PK_3_Lab_4\x64\Debug\PK_3_Lab_4.exe
